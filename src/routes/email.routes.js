@@ -3,9 +3,11 @@ import { body } from 'express-validator';
 import * as emailController from '../controllers/email.controller.js';
 import { authMiddleware } from '../middlewares/auth.middleware.js';
 import { validate } from '../middlewares/validate.middleware.js';
+import { emailApiLimiter } from '../middlewares/rateLimit.middleware.js';
 
 const router = Router();
 
+router.use(emailApiLimiter);
 router.use(authMiddleware);
 
 router.post('/password-recovery', [

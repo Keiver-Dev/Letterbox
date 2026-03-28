@@ -31,6 +31,24 @@ A robust, high-performance email delivery microservice built with **Node.js**, *
 
 ---
 
+## Quick Start (30 Seconds)
+
+If you have `make` installed, you can set up the entire project in one command:
+
+```bash
+make setup
+```
+
+This will:
+1.  Install dependencies (`npm install`).
+2.  Create your `.env` file from the example.
+3.  Automatically generate a secure `INTERNAL_API_KEY`.
+4.  Start the infrastructure (PostgreSQL) using Docker Compose.
+
+Alternatively, you can run the bash script: `./setup.sh`.
+
+---
+
 ## Installation
 
 ### Prerequisites
