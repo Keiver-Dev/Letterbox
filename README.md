@@ -209,4 +209,4 @@ npm start
 
 ## License
 Released under the [MIT License](LICENSE).
-Built with care by **[Vlynk Studios](https://github.com/vlynk-studios)**.
+Built with care by **[Keiver-Dev](https://github.com/Keiver-Dev)**.
