@@ -6,7 +6,7 @@ All notable changes to the **Letterbox Email Service** will be documented in thi
 
 ## [0.1.3-beta] - 2026-03-07
 ### Changed
-- **Branding Update**: Migrated project branding from "Letterbox" to **Keiver-Dev**.
+- **Branding Update**: Migrated project branding from **Keiver-Dev** to **Letterbox**.
 - **Email Design Revamp**: Completely redesigned all email templates with a premium "Glassmorphism" aesthetic.
     - Implemented `Inter` typography via Google Fonts.
     - Added linear gradients to headers and subtle shadows/borders to the main container.
